@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/c"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/st_titre1"
+        android:text="Authentification" />
+
+    <EditText
+        android:id="@+id/ednom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="saisir votre nom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="saisir votre mot de passe"
+        android:inputType="numberPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnval_auth"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:text="Valider" />
+
+        <Button
+            android:id="@+id/btnqte_auth"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="#FF9800"
+            android:text="Quitter" />
+
+    </LinearLayout>
+
+</LinearLayout>

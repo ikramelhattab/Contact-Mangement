@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/c"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="50dp"
+    tools:context=".Acceuil">
+
+    <TextView
+        android:id="@+id/acc"
+        style="@style/st_titre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="Acceuil"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnaff_acc"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:text="Affichage"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnaj_acc"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="#FF9800"
+            android:text="Ajout" />
+    </LinearLayout>
+
+</LinearLayout>
